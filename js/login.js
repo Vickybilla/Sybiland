@@ -12,3 +12,4 @@
     alert("Ingrese, nombre de usuario y contraseña correctos."); 
   } 
   } 
+  //Se probó la funcionalidad  de la validación, no es un proceso seguro para implementar, necesita seguridad.
