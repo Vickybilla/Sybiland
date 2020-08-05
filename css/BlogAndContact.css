@@ -1,0 +1,161 @@
+body {
+    padding-bottom: 20px;
+  }
+
+  .navbar {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    
+  }
+  #navbar-sybi {
+    justify-content: space-between;
+    background: #F4F4F4;
+    display: flex;
+    padding: 0 10px;
+    
+  
+  }
+  
+  #navbarSybi .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+ .navbar .navbar-brand img {
+    widows:50px;
+    display: inline-flex;
+    width: auto;
+    border-radius: 50%;
+    font-size: 45px;
+    height: 50px;
+   
+    
+  }
+  
+  .navbar .navbar-brand  {
+    widows:50px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 56px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 45px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    
+  }
+
+   #disciplinasicon {
+    display: flex;
+    justify-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  #reinasicon {
+    display: flex;
+    justify-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+  .col-md-4{
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding: 30px;
+    justify-content: space-between
+      
+  }
+  
+  .container-fluid.col-4{
+      justify-content:space-between;
+      padding: 20px;
+      margin:initial;
+  }
+  
+
+
+  /* Smallest device*/
+  @media (min-width: 100px) and (max-width: 575px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  .featurette-divider {
+    margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  
+  /*Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  /*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  .footer {
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+    justify-items:flex-start;
+  }
+  .footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+    color: #EABE3F;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
+    
